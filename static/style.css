@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-container {
+  width: 30%;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  background: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.chat-box {
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 0 0 0 5px;
+}
+
+.chat-input button {
+  padding: 10px 20px;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 0 5px 0;
+}
+
+.chat-input button:hover {
+  background: #45a049;
+}
+
+/* Messages */
+.message {
+  margin: 10px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  max-width: 80%;
+  line-height: 1.4;
+}
+
+.user {
+  background-color: #e4e4e4;
+  align-self: flex-end;
+}
+
+.bot {
+  background-color: #d1f1d1;
+  align-self: flex-start;
+}
+
+
+.doctor-button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.doctor-button:hover {
+  background-color: #45a049;
+}
+
+
+/* Add these styles to your existing CSS */
+.record-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.record-btn:hover {
+  background-color: #45a049;
+}
+
+.recording {
+  background-color: #ff4444 !important;
+}
+
+.voice-selector {
+  margin: 10px 0;
+  padding: 8px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+#voiceGender {
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

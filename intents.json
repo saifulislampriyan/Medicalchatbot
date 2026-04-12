@@ -1,0 +1,1510 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": [
+          "Hello",
+          "Hey",
+          "Hi",
+          "Good Day",
+          "Greetings"
+        ],
+        "responses": [
+          "Hello!",
+          "Hey",
+          "What Can I do for you?"
+        ],
+        "suggestion": "Feel free to ask me about your symptoms or any health-related concerns."
+      },
+      {
+        "tag": "Acne",
+        "patterns": [
+          "blackheads",
+          "pimples",
+          "face pimples",
+          "neck pimples",
+          "shoulder pimples"
+        ],
+        "responses": [
+          "According to your symptoms you might have Acne",
+          "You have Acne",
+          "I suppose you have Acne"
+        ],
+        "doctor_link": "https://healthcenterbd.com/dr-zahir-uddin-mohammad-babar/",
+        "suggestion": "Keep the affected area clean, avoid popping pimples, and maintain a healthy skincare routine. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag" : "Attention Deficit Disorder (ADHD)",
+        "patterns" : ["impulsivity","hyperactivity",
+        "lack of focus",
+        "messy works",
+        "restlessness"],
+        "responses" : ["According to your symptoms you might have Attention Deficit Disorder",
+        "You have Attention Deficit Disorder",
+        "I suppose you have Attention Deficit Disorder"],
+        "doctor_link":"https://www.doctorbangladesh.com/prof-dr-m-a-salam-psychiatry/",
+        "suggestion":"Reduce stress,Take breaks,Consider supplements"
+    
+      },
+      {
+        "tag" : "Amenorrhea",
+        "patterns" : ["hair loss","change in vision","hair growth on face","pain in pelvic area"],
+        "responses" : ["According to your symptoms you might have Amenorrhea","You have Amenorrhea","I suppose you have Amenorrhea"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-ayesha-begum",
+        "suggestion":"Stress Management,Efficient Nutrition,Consult a specialist for a proper treatment plan"
+      },
+
+    
+      {
+        "tag": "Allergies",
+        "patterns": [
+          "sneezing",
+          "itchy eyes",
+          "coughing",
+          "watery eyes",
+          "itchy nose"
+        ],
+        "responses": [
+          "According to your symptoms you might have Allergies",
+          "You have Allergies",
+          "I suppose you have Allergies"
+        ],
+        "doctor_link": "https://healthcenterbd.com/dr-zahir-uddin-mohammad-babar/",
+        "suggestion": "Identify and avoid triggers when possible, consider antihistamines (if recommended), and keep indoor areas clean. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag": "Arthritis",
+        "patterns": [
+          "lack of movement",
+          "sored area",
+          "joint pain"
+        ],
+        "responses": [
+          "According to your symptoms you might have any type of Arthritis",
+          "You have any type of Arthritis",
+          "I suppose you have any type of Arthritis"
+        ],
+        "doctor_link": "https://healthcenterbd.com/dr-md-zahidul-hoque/",
+        "suggestion": "Try low-impact exercises, maintain a healthy weight, consider physical therapy, and consult a specialist if pain persists."
+      },
+      {
+        "tag" : "Ankylosing Spondylitis",
+        "patterns" : ["loss of appetite",
+        "weight loss",
+        "difficulty walking",
+        "pain in heels",
+        "pain in hips",
+        "pain in jaw",
+        "decreased energy",
+        "heart failure",
+        "heart block",
+        "pain in lower back",
+        "stiffness"],
+        "responses" : ["According to your symptoms you might have Ankylosing Spondylitis",
+        "You have Ankylosing Spondylitis","I suppose you have Ankylosing Spondylitis"],
+        "doctor_link":" https://drmonzurakhoda.com/",
+        "suggestion":" Physical Therapy and Exercise,Lifestyle Modifications, Mental Health and Support,Reduce stress,Take breaks,Consider supplements"
+    
+      },
+      {
+        "tag": "Amyloidosis",
+        "patterns": [
+          "sudden weight loss",
+          "feeling of fullness",
+          "shortness of breath",
+          "tongue swelling",
+          "severe fatigue",
+          "severe weakness",
+          "irregular heartbeat"
+        ],
+        "responses": [
+          "According to your symptoms you might have Amyloidosis",
+          "You have Amyloidosis",
+          "I suppose you have Amyloidosis"
+        ],
+        "doctor_link": "https://healthcenterbd.com/dr-md-shafiullah/",
+        "suggestion": "Follow up with a specialist, maintain a balanced diet, and closely monitor your symptoms. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag" : "Allergies",
+        "patterns" : ["sneezing","itchy eyes","coughing","watery eyes","itchy nose"],
+        "responses" : ["According to your symptoms you might have Allergies","You have Allergies","I suppose you have Allergies"],
+        "doctor_link":"https://www.doctorbangladesh.com/prof-dr-md-abdul-mannan-skin/",
+        "suggestion":"Keep yourlsef from dust,Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Anorexia",
+        "patterns" : ["terrifies of gaining weight",
+        "hard to sleep through night",
+        "dizziness",
+        "hair is falling out",
+        "constipation",
+        "swollen arms",
+        "swollen legs",
+        "fainting",
+        "underweight"],
+        "responses" : ["According to your symptoms you might have Anorexia","You have Anorexia","I suppose you have Anorexia"],
+        "doctor_link":"https://sasthyaseba.com/doctors/asst-prof-dr-shahriar-faruque",
+        "suggestion":" seek Professional Help,Focus on Small, Manageable Steps,Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag": "Arachnoiditis",
+        "patterns": [
+          "weakness in the legs",
+          "numbness in legs",
+          "ringing in ears",
+          "bladder problems"
+        ],
+        "responses": [
+          "According to your symptoms you are suffering from Arachnoiditis",
+          "You have Arachnoiditis",
+          "I suppose you have Arachnoiditis"
+        ],
+        "doctor_link": "https://healthcenterbd.com/prof-dr-moinul-hossain/",
+        "suggestion": "Physical therapy and pain management can be helpful. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag" : "Anxiety or Panic Disorder",
+        "patterns" : ["rapid heartbeat",
+        "fast heartbeat",
+        "sweating",
+        "shaking",
+        "shortness of breath",
+        "fear of death",
+        "chest pain",
+        "faintness"],
+        "responses" : ["According to your symptoms you might have Anxiety or Panic Disorder","You have Anxiety or Panic Disorder","I suppose you have Panic Disorder"],
+        "doctor_link":"https://heliumdoc.com/bd/waziul-alam-chowdhury/",
+        "suggestion":"Deep Breathing Exercises,Mindfulness Meditation,Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Antitrypsin Deficiency",
+        "patterns" : ["jaundice","coughing up blood"],
+        "responses" : ["According to your symptoms you might have Antitrypsin Deficiency","You have Antitrypsin Deficiency","I suppose you have Antitrypsin Deficiency"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-mahbub-anwar",
+        "suggestion":"Breathing and Physical Activity,Avoid Smoking and Pollutants,Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Abdominal Migraine",
+        "patterns" : ["dark shadows under eyes","be pale","have little energy","feeling drowsy","unable to eat"],
+        "responses" : ["According to your symptoms you might have Abdominal Migraine","You have Abdominal Migraine","I suppose you have Abdominal Migraine"],
+        "doctor_link":"https://sasthyaseba.com/doctors/brig-gen-prof-dr-md-azizur-rahman",
+        "suggestion":"Dietary Adjustments,Behavioral Therapies,Consult a specialist for a proper treatment plan "
+      },
+      {
+        "tag" : "Amyloidosis",
+        "patterns" : ["sudden weight loss","feeling of fullness","shortness of breath","tongue swelling","severe fatigue","severe weakness","irregular heartbeat"],
+        "responses" : ["According to your symptoms you might have Amyloidosis","You have Amyloidosis","I suppose you have Amyloidosis"],
+        "doctor_link":"https://drmahabubullah.wordpress.com/amyloidosis-cutis-dyschromica/",
+        "suggestion":" Lifestyle Adjustments,Monitor Organ Function,Consult a specialist for a proper treatment plan"
+    
+      },
+      {
+        "tag" : "Abscessed Tooth",
+        "patterns" : ["trouble swallowing","trouble breathing","bad taste","gum redness","sensitivity","bad odor in mouth"],
+        "responses" : ["According to your symptoms you might have Abscessed Tooth","You have Abscessed Tooth","I suppose you have Abscessed Tooth"],
+        "doctor_link":"https://www.doctorbangladesh.com/dr-md-imran-hossain-dentist/",
+        "suggestion":"Saltwater Rinse,Avoid Irritants,Consult a specialist for a proper treatment plan "
+      },
+      {
+        "tag" : "Asthma",
+        "patterns" : ["coughing at night","wheezing","chest pain","frequent cough","feeling tired","easily upset","trouble in sleeping","pale face","sweaty face"],
+        "responses" : ["According to your symptoms you might have Asthma","You have Asthma","I suppose you have Asthma"],
+        "doctor_link":"https://www.doctorbangladesh.com/prof-dr-a-k-m-mustafa-hussain/",
+        "suggestion":"Take medication,Exercise regularly,Make your home asthma-friendly"
+      },
+      {
+        "tag" : "Appendicitis",
+        "patterns" : ["pain in lower belly","pain near navel","belly pain and vomiting","swollen belly","severe cramps","difficulty in peeing","constipation with gas"],
+        "responses" : ["According to your symptoms you might have Appendicitis","You have Appendicitis","I suppose you have Appendicitis"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-md-titu-miah",
+        "suggestion":"Eat a Light Diet,Do Not Eat or Drink,Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Alzheimers",
+        "patterns" : ["forgetful","confusion with time","poor judgement"],
+        "responses" : ["According to your symptoms you might have Alzheimers","You have Alzheimers","I suppose you have Alzheimers"],
+        "doctor_link":" https://sasthyaseba.com/doctors/prof-dr-md-shah-alam",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Absence Seizure",
+        "patterns" : ["sudden stop in motion","lip smacking","eyelid fluttering","finger rubbing"],
+        "responses" : ["According to your symptoms you might have Absence Seizure","You have Absence Seizure","I suppose you have Absence Seizure"],
+        "doctor_link":"https://sasthyaseba.com/doctors/asst-prof-dr-tawhidur-rahman",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Sleep Apnea",
+        "patterns" : ["loud snoring","loud gasping","loud choking","excessive sweating at night"],
+        "responses" : ["According to your symptoms you might have Sleep Apnea","You have Sleep Apnea","I suppose you have Sleep Apnea"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-md-shah-alam",
+        "suggestion":"Reduce stress,Take breaks,Consider supplements,Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Achalasia",
+        "patterns" : ["food coming back up into the throat","nighttime coughing","heart is burning","hurt is belching"],
+        "responses" : ["According to your symptoms you might have Achalasia","You have Achalasia","I suppose you have Achalasia"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-md-s-m-noor-e-shadid",
+        "suggestion":" Lifestyle Adjustments,Monitor Organ Function,Consult a specialist for a proper treatment plan,Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Aparaxia of Speech",
+        "patterns" : ["unable to form proper words","unable to say complex words","speech inconsistencies","distortion in vowel sounds"],
+        "responses" : ["According to your symptoms you might have Aparaxia of Speech","You have Aparaxia of Speech","I suppose you have Aparaxia of Speech"],
+        "doctor_link":"https://sasthyaseba.com/doctors/sk-md-salim-hossen",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Acute Respiratory Distress Syndrome (ARDS)",
+        "patterns" : ["shortness of breath","low blood pressure","fast breathing","fast heartbeat","exhaustion","blue tinted lips","blue tinted nails"],
+        "responses" : ["According to your symptoms you are suffering from Acute Respiratory Distress Syndrome (ARDS)","You have Acute Respiratory Distress Syndrome (ARDS)","I suppose you have Acute Respiratory Distress Syndrome (ARDS)"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-hirennappa-b-udnur",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Arrhythmia",
+        "patterns" : ["palpitations","chest pounding","breath shortness","blurry vision","anxiety"],
+        "responses" : ["According to your symptoms you might have Arrhythmia","You have Arrhythmia","I suppose you have Arrhythmia"],
+        "doctor_link":"https://sasthyaseba.com/doctors/asst-prof-dr-shakila-ishrat-jahan",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Asthma",
+        "patterns" : ["coughing at night","wheezing","chest pain","frequent cough","feeling tired","easily upset","trouble in sleeping","pale face","sweaty face"],
+        "responses" : ["According to your symptoms you might have Asthma","You have Asthma","I suppose you have Asthma"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-gobinda-chandra-das",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Anemia",
+        "patterns" : ["fatigue","weakness","pale skin","yellowish skin","shortness of breath","cold hands","cold feet"],
+        "responses" : ["According to your symptoms you are suffering from Anemia","You have Anemia","I suppose you have Anemia"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-md-kamruzzaman",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+
+      {
+        "tag" : "Arachnoiditis",
+        "patterns" : ["weakness in the legs","numbness in legs","ringing in ears","bladder problems"],
+        "responses" : ["According to your symptoms you are suffering from Arachnoiditis","You have Arachnoiditis","I suppose you have Arachnoiditis"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-kanak-kanti-barua",
+        "suggestion":"Physical Therapy,Sleep Hygiene,Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Autism",
+        "patterns" : ["delayed language","delayed learning","delayed movement","unusual mood","unusual eating habits","unusual sleeping habits","no facial expression"],
+        "responses" : ["According to your symptoms you might have Autism","You have Autism","I suppose you have Autism"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-kazi-ashraful-islam",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Blepharitis",
+        "patterns" : ["feels like something in the eye","a burning feeling in the eye","blurry vision","sensitivity to light","dry eyes","watery eyes"],
+        "responses" : ["According to your symptoms you might have Blepharitis","You have Blepharitis","I suppose you have Blepharitis"],
+        "doctor_link":"https://heliumdoc.com/bd/sajedur-rahman/",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Bacterial Arthritis",
+        "patterns" : ["having chills","unable to move the limb with the infected joint","Severe pain in the affected joint"],
+        "responses" : ["According to your symptoms you might have Bacterial Arthritis","You have Bacterial Arthritis","I suppose you have Backterial Arthritis"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-sushanta-kumar-saha",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Bacterial Meningitis",
+        "patterns" : ["feeling confused","numbness in my face","neck is stiff","hard time concentrating","seizures","lack of appetite"],
+        "responses" : ["According to your symptoms you might have Bacterial Meningitis","You have Meningitis","I suppose you have Meningitis"],
+        "doctor_link":"https://sasthyaseba.com/doctors/asst-prof-dr-tawhidur-rahman",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Benign Prostate Enlargement(BPE)",
+        "patterns" : ["makes it difficult o urinate","need to urinate frequently","wake up frequently in the night to urinate","difficulty in passing urine"],
+        "responses" : ["According to your symptoms you might have Benign Prostate Enlargement Disease","You have Benign Prostate Enlargement Disease","I suppose you have Benign Prostate Enlargement Disease"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-sayem-hossain",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Bipolar Disorder",
+        "patterns" : ["feeling depressed","lacking energy","loss of interest","feeling worthless","being pessimistic about everything","being delusional","suicidal thoughts","feeling full of energy","easily irritated"],
+        "responses" : ["According to your symptoms you might have Bipolar Disorder Disease","You have Bipolar Disorder Disease","I suppose you have Bipolar Disorder Disease"],
+        "doctor_link":"https://heliumdoc.com/bd/kumrul-hasan/",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Bronchiectasis",
+        "patterns" : ["persistent cough with large amount of phlegm","coughing up blood","coughing up blood-stained phlegm"],
+        "responses" : ["According to your symptoms you might have Bronchiectasis Disease","You have Bronchiectasis Disease","I suppose you have Bronchiectasis Disease"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-md-golam-kibria-khan",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+
+      {
+        "tag" : "Bronchitis",
+        "patterns" : ["blocked nose","runny or blocked nose","tiredness","cough with phlegm","cough with yellow gray phlegm"],
+        "responses" : ["According to your symptoms you might have Bronchitis Disease","You have Bronchitis Disease","I suppose you have Bronchitis Disease"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-saroj-kanti-chowdhury",
+        "suggestion":"Stay Hydrated,Avoid Pollutants,Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Bulimia",
+        "patterns" : ["over eating","think about food all time","overeats","focus in body image"],
+        "responses" : ["According to your symptoms you might have Bulimia Disease","You have Bulimia Disease","I suppose you have Bulimia Disease"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-vikram-arunachalam",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Catarrh",
+        "patterns" : ["constantly need to clear throat","blocked or stuffy nose can't clear","throat blocked","reduced sense of smell","reduced sense of taste","temporary hearing loss"],
+        "responses" : ["According to your symptoms you might have Catarrh Disease","You have Catarrh Disease","I suppose you have Catarrh Disease"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-mahmudul-hasan-khan-5030",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Cellulitis",
+        "patterns" : ["red skin","hot skin","swollen skin","tender skin"],
+        "responses" : ["According to your symptoms you might have Cellulitis Disease","You have Cellulitis Disease","I suppose you have Cellulitis Disease"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-md-amir-khasru",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Chest Infection",
+        "patterns" : ["rapid heart beat","chest tightness","feeling confused"],
+        "responses" : ["According to your symptoms you might have Chest Infection","You have Chest Infection","I suppose you have Chest Infection"],
+        "doctor_link":"https://www.doctorbangladesh.com/prof-dr-a-k-m-mustafa-hussain/",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      
+      {
+        "tag": "Chest Pain",
+        "patterns": [
+          "chest feels heavy",
+          "chest feels tight",
+          "pain in chest and arms back and jaw",
+          "breathlessness"
+        ],
+        "responses": [
+          "According to your symptoms you might have Chest Pain",
+          "You have Chest Pain",
+          "I suppose you have Chest Pain"
+        ],
+        "doctor_link": "https://healthcenterbd.com/prof-dr-md-abdus-salam/",
+        "suggestion": "Seek immediate evaluation if severe. Practice stress management, maintain a healthy diet, and monitor blood pressure. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag" : "Chronic Fatigue Syndrome",
+        "patterns" : ["sleep disturbance","poor temperature control","dizziness","hyper sensitive to light","hyper sensitive to sound","speech problem","language problem","problem with concentration","problem with thinking"],
+        "responses" : ["According to your symptoms you might have Chronic Fatigue Syndrome","You have Chronic Fatigue Syndrome","I suppose you have Chronic Fatigue Syndrome"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-supriya-sarker",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag": "Common Cold",
+        "patterns": [
+          "sore throat",
+          "sneezing",
+          "coughing",
+          "hoarse voice",
+          "headache",
+          "ear ache",
+          "blocked nose",
+          "runny nose"
+        ],
+        "responses": [
+          "According to your symptoms you might have Common Cold",
+          "You have Common Cold",
+          "I suppose you have Common Cold"
+        ],
+        "doctor_link": "https://healthcenterbd.com/professor-dr-md-jahirul-alam/",
+        "suggestion": "Stay hydrated, get plenty of rest, use over-the-counter meds if needed, and maintain good hygiene. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag" : "Conjunctivitis",
+        "patterns" : ["eye redness","burning sensation in eyes","sticky coating on eye lashes","disturbed vision","intense red in eyes"],
+        "responses" : ["According to your symptoms you might have Conjunctivitis","You have Conjunctivitis","I suppose you have Conjunctivitis"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-yasmin-jahan",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Dehydration",
+        "patterns" : ["light-headedness","tiredness","dry mouth","dry lips","infrequent urine"],
+        "responses" : ["According to your symptoms you might have Dehydration","You have Dehydration","I suppose you have Dehydration"],
+        "doctor_link":"special doctor in any location",
+        "suggestion":"Drink enough water "
+      },
+      {
+        "tag" : "Dental Abscess",
+        "patterns" : ["intense pain in tooth","intense pain in gum","tooth pain spreads to ear jaw and neck","tender tooth","discoloured tooth","bad breath","sensitive to hot and cold"],
+        "responses" : ["According to your symptoms you might have Dental Abscess","You have Dental Abscess","I suppose you have Dental Abscess"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-sameer-azad-mahendra",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Depression",
+        "patterns" : ["continuous sadness","mood off","losing interest in things","losing motivation","feeling anxious","feeling guilty","feeling helpless","feeling hopeless","low self esteem","speaking slower than usual","feeling worried"],
+        "responses" : ["According to your symptoms you might have Depression","You have Depression","I suppose you have Depression"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-md-shah-alam",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag": "Diabetes",
+        "patterns": [
+          "feeling very thirsty",
+          "loss of muscle bulk",
+          "feeling very tired",
+          "wounds heal slowly"
+        ],
+        "responses": [
+          "According to your symptoms you might have Diabetes",
+          "You have Diabetes",
+          "I suppose you have Diabetes"
+        ],
+        "doctor_link": "https://healthcenterbd.com/prof-dr-ajit-kumar-paul/",
+        "suggestion": "Take care of your food habits; eat non-starchy vegetables, leafy greens, fatty fish. Monitor your blood sugar levels. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag" : "Diarrhoea",
+        "patterns" : ["stomach cramps","pale skin","cold hands","cold feet","feeling drowsy","rapid heartbeat"],
+        "responses" : ["According to your symptoms you might have Diarrhoea","You have Diarrhoea","I suppose you have Diarrhoea"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-md-mehedi-hasan",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Depression",
+        "patterns" : ["continuous sadness","mood off","losing interest in things","losing motivation","feeling anxious","feeling guilty","feeling helpless","feeling hopeless","low self esteem","speaking slower than usual","feeling worried"],
+        "responses" : ["According to your symptoms you might have Depression","You have Depression","I suppose you have Depression"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-md-sayad-ullah",
+        "suggestion":"Regular exercise,Sleep hygiene,Stay connected,Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Dystonia",
+        "patterns" : ["muscle spasms","abnormal posture","twisted posture","foot turning inwards","body parts jerking rapidly"],
+        "responses" : ["According to your symptoms you might have Dystonia","You have Dystonia","I suppose you have Dystonia"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-kanak-kanti-barua",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Epilepsy",
+        "patterns" : ["experienced the events before","unusual smell or taste","tingling sensation in arms and legs","sudden feeling of fear or joy"],
+        "responses" : ["According to your symptoms you might have Epilepsy","You have Epilepsy","I suppose you have Epilepsy"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-nandini-mitta",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Escherichia Coli",
+        "patterns" : ["diarrhoea","stomach cramps","occasionally fever"],
+        "responses" : ["According to your symptoms you might have Escherichia Coli","You have Escherichia Coli","I suppose you have Escherichia Coli"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-chandramouli-bhattacharya",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Flu",
+        "patterns" : ["sudden fever","dry cough","chesty cough","chills","aching muscles","sore throat"],
+        "responses" : ["According to your symptoms you might have Flu","You have Flu","I suppose you have Flu"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-jinnat-fatema-saira-safa",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Fetal alcohol spectrum disorder",
+        "patterns" : ["hyperactivity","impulsivity","sensory difficulties","attention deficiency"],
+        "responses" : ["According to your symptoms you might have Fetal alcohol spectrum disorder","You have Fetal alcohol spectrum disorder","I suppose you have Fetal alcohol spectrum disorder"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-kazi-ashraful-islam",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Food poisoning",
+        "patterns" : ["nausea","diarrhoea","abdominal pain","aching muscles","fever","stomach cramps","vomiting"],
+        "responses" : ["According to your symptoms you might have Food poisoning","You have Food poisoning","I suppose you have Food poisoning"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-md-nur-e-azam",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Fungal nail infection",
+        "patterns" : ["discolouration of the nail","brittle nails","crumbly nails","distorted nails"],
+        "responses" : ["According to your symptoms you might have Fungal nail infection","You have Fungal nail infection","I suppose you have Fungal nail infection"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-farhana-wahab",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Gallbladder cancer",
+        "patterns" : ["abdominal pain","stomach pain","jaundice","loss of appetite","swollen stomach","weight loss"],
+        "responses" : ["According to your symptoms you might have Gallbladder cancer","You have Gallbladder cancer","I suppose you have Gallbladder cancer"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-nitish-ranjan-acharya",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Gallstones",
+        "patterns" : ["jaundice","persistent abdominal pain","fever"],
+        "responses" : ["According to your symptoms you might have Gallstones","You have Gallstones","I suppose you have Gallstones"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-mahmud-mohammad-sarder",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Ganglion cyst",
+        "patterns" : ["joint pain","cysts in wrist","swelling"],
+        "responses" : ["According to your symptoms you might have Ganglion cyst","You have Ganglion cyst","I suppose you have Ganglion cyst"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-joshna-naidu-b-m",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag": "Gastroenteritis",
+        "patterns": [
+          "diarrhoea",
+          "vomiting",
+          "mild fever",
+          "aching limbs",
+          "headache",
+          "upset stomach",
+          "loss of appetite"
+        ],
+        "responses": [
+          "According to your symptoms you might have Gastroenteritis",
+          "You have Gastroenteritis",
+          "I suppose you have Gastroenteritis"
+        ],
+        "doctor_link": "https://healthcenterbd.com/prof-dr-abdur-rob-sarkar/",
+        "suggestion": "Replenish fluids, get adequate rest, follow a bland diet. Seek medical attention if symptoms worsen. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag" : "Gastro-oesophageal reflux disease (GORD)",
+        "patterns" : ["heartburn","bad breath","belching","acid reflux","pain when swallowing"],
+        "responses" : ["According to your symptoms you might have Gastro-oesophageal reflux disease (GORD)","You have Gastro-oesophageal reflux disease (GORD)","I suppose you have Gastro-oesophageal reflux disease (GORD)"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-abu-sayem-ahmed",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Genital herpes",
+        "patterns" : ["pain peeing","genital pain","swelling in groin","blisters","vaginal discharge","rectal pain"],
+        "responses" : ["According to your symptoms you might have Genital herpes","You have Genital herpes","I suppose you have Genital herpes"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-ariful-basher",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Genital warts",
+        "patterns" : ["lumps around genitals","warts","vaginal outgrowth","lumps around penis"],
+        "responses" : ["According to your symptoms you might have Genital warts","You have Genital warts","I suppose you have Genital warts"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-romena-akter",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Germ cell tumours",
+        "patterns" : ["lump","olk-sac tumours"],
+        "responses" : ["According to your symptoms you might have Germ cell tumours","You have Germ cell tumours","I suppose you have Germ cell tumours"],
+        "doctor_link":"https://sasthyaseba.com/doctors/assoc-prof-dr-md-ibrahim-khalil-shahin",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Glandular fever",
+        "patterns" : ["swollen glands","sore throat","fatigue","extreme tiredness"],
+        "responses" : ["According to your symptoms you might have Glandular fever","You have Glandular fever","I suppose you have Glandular fever"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-debashis-roy",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Gonorrhoea",
+        "patterns" : ["pain while urinating","pain in lower abdomen","bleeding after sex","swelling of the testicles","yellow fluid discharge","increased vaginal discharge"],
+        "responses" : ["According to your symptoms you might have Gonorrhoea","You have Gonorrhoea","I suppose you have Gonorrhoea"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-md-sirajul-haque",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Gout",
+        "patterns" : ["joint pain","shiny skin over joints","swelling of joints","tender joints"],
+        "responses" : ["According to your symptoms you might have Gout","You have Gout","I suppose you have Gout"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-sushanta-kumar-saha",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Gum disease",
+        "patterns" : ["bad breath","bleeding in gums","swelling in gums","sore gums","bleeding while brushing"],
+        "responses" : ["According to your symptoms you might have Gum disease","You have Gum disease","I suppose you have Gum disease"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-shahriar",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Haemorrhoids (piles)",
+        "patterns" : ["mucus discharge after passing a stool","itchy bottom","bleeding after defecating","soreness in anus","swelling around anus","redness around anus"],
+        "responses" : ["According to your symptoms you might have Haemorrhoids (piles)","You have Haemorrhoids (piles)","I suppose you have Haemorrhoids (piles)"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-ismat-jahan-lima",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag": "Head and neck cancer",
+        "patterns": [
+          "persistent mouth ulcers",
+          "lump in mouth",
+          "persistent hoarseness",
+          "a persistent cough",
+          "lump or swelling in neck",
+          "shortness of breath",
+          "noisy breathing",
+          "difficulty or pain when swallowing",
+          "numbness in face",
+          "drooping on one side of face",
+          "nosebleeds",
+          "a persistent blocked nose",
+          "decreased sense of smell",
+          "hearing loss"
+        ],
+        "responses": [
+          "According to your symptoms you might have Head and neck cancer",
+          "You have Head and neck cancer",
+          "I suppose you have Head and neck cancer"
+        ],
+        "doctor_link": "https://healthcenterbd.com/dr-md-rafiqul-islam-sarkar/",
+        "suggestion": "Avoid tobacco/alcohol, maintain regular check-ups, and follow oncologist recommendations. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag" : "Hay fever",
+        "patterns" : ["sneezing","itchy eyes","runny nose"],
+        "responses" : ["According to your symptoms you might have Hay fever","You have Hay fever","I suppose you have Hay fever"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-gobinda-chandra-das",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Head and neck cancer",
+        "patterns" : ["persistent mouth ulcers","lump in mouth","persistent hoarseness","a persistent cough","lump or swelling in neck","shortness of breath","noisy breathing","difficulty or pain when swallowing","numbness in face","drooping on one side of face","nosebleeds","a persistent blocked nose","decreased sense of smell","hearing loss"],
+        "responses" : ["According to your symptoms you might have Head and neck cancer","You have Head and neck cancer","I suppose you have Head and neck cancer"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-vikram-m-bhardwaj",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Head lice and nits",
+        "patterns" : ["itchy scalp","rash on the back of the neck","small white eggs or nits in the hair"],
+        "responses" : ["According to your symptoms you might have Head lice and nits","You have Head lice and nits","I suppose you have Head lice and nits"],
+        "doctor_link":"https://www.doctorbangladesh.com/dr-asif-imran-siddiqui/",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag": "Headaches",
+        "patterns": [
+          "stress",
+          "dehydration",
+          "nausea",
+          "vomiting",
+          "ncreased sensitivity to light or sound",
+          "watering or red eye",
+          "blocked or runny nose"
+        ],
+        "responses": [
+          "According to your symptoms you might have Headaches",
+          "You have Headaches",
+          "I suppose you have Headaches"
+        ],
+        "doctor_link": "https://healthcenterbd.com/prof-dr-md-azizul-haque/",
+        "suggestion": "Stay hydrated, manage stress, avoid triggers, and if severe, consult a doctor."
+      },
+      {
+        "tag" : "Hearing loss",
+        "patterns" : ["difficulty hearing","misunderstanding other people","asking people to repeat themselves"],
+        "responses" : ["According to your symptoms you might have Hearing loss","You have Hearing loss","I suppose you have Hearing loss"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-md-sirajul-islam-5902",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Heart failure",
+        "patterns" : ["breathlessness","tiredness and lethargy","leg swelling","loss of appetite"],
+        "responses" : ["According to your symptoms you might have Heart failure","You have Heart failure","I suppose you have Heart failure"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-nasir-uddin-ahmed",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Hepatitis A",
+        "patterns" : ["joint and muscle pain","fever","loss of appetite","itchy skin","dark urine","pale stools","jaundice","tiredness"],
+        "responses" : ["According to your symptoms you might have Hepatitis A","You have Hepatitis A","I suppose you have Hepatitis A"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-faruque-ahmed",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Hepatitis B",
+        "patterns" : ["loss of appetite","diarrhoea","abdominal pain","tiredness","fever","flu"],
+        "responses" : ["According to your symptoms you might have Hepatitis B","You have Hepatitis B","I suppose you have Hepatitis B"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-faruque-ahmed",
+         "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Hepatitis C",
+        "patterns" : ["tired","flu","loss of appetite","abdominal pain","muscle ache","fever"],
+        "responses" : ["According to your symptoms you might have Hepatitis C","You have Hepatitis C","I suppose you have Hepatitis C"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-faruque-ahmed",
+         "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Hiatus hernia",
+        "patterns" : ["weak diaphragm","pressure on abdomen","leaking stomach acid","scarring on stomach"],
+        "responses" : ["According to your symptoms you might have Hiatus hernia","You have Hiatus hernia","I suppose you have Hiatus hernia"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-shounak-ghosh",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "High cholesterol",
+        "patterns" : ["overweight","high blood pressure","diabetes","stroke","heart attack"],
+        "responses" : ["According to your symptoms you might have High cholesterol","You have High cholesterol","I suppose you have High cholesterol"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-mohammad-abidur-shahedin-chowdhury",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag": "HIV",
+        "patterns": [
+          "fever",
+          "swollen glands",
+          "rash",
+          "upset stomach",
+          "headache",
+          "muscle pain",
+          "joint pain"
+        ],
+        "responses": [
+          "According to your symptoms you might have HIV",
+          "You have HIV",
+          "I suppose you have HIV"
+        ],
+        "doctor_link": "https://healthcenterbd.com/dr-ayesha-akter/",
+        "suggestion": "Get tested, follow antiretroviral therapy if diagnosed, and maintain a healthy lifestyle to support immunity. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag" : "Huntington's disease",
+        "patterns" : ["problem in movement","problem in cognition","mood swings","personality changes","irritability",""],
+        "responses" : ["According to your symptoms you might have Huntington's disease","You have Huntington's disease","I suppose you have Huntington's disease","fidgety movements"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-hasan-zahidur-rahman",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Hyperglycaemia (high blood sugar)",
+        "patterns" : ["increased thirst","dry mouth","tiredness","blurred vision","unintentional weight loss","skin infection","thrush","recurrent infections","bladder infections","frequent urge to urinate"],
+        "responses" : ["According to your symptoms you might have Hyperglycaemia (high blood sugar)","You have Hyperglycaemia (high blood sugar)","I suppose you have Hyperglycaemia (high blood sugar)"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-debjyoti-majhi",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Hyperhidrosis",
+        "patterns" : ["excessive sweating","socially withdrawn","swelling in armpits","swelling in palms","swelling in groin","swelling in soles","swelling in face and chest"],
+        "responses" : ["According to your symptoms you might have Hyperhidrosis","You have Hyperhidrosis","I suppose you have Hyperhidrosis"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-g-m-zakir-hossain",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Hypoglycaemia (low blood sugar)",
+        "patterns" : ["hunger","trembling","shakiness","sweating","difficulty concentrating","disturbed sleep","confused upon waking"],
+        "responses" : ["According to your symptoms you might have Hypoglycaemia (low blood sugar)","You have Hypoglycaemia (low blood sugar)","I suppose you have Hypoglycaemia (low blood sugar)"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-md-labid-rahman",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Idiopathic pulmonary fibrosis",
+        "patterns" : ["shortness of breath","tiredness","persistent dry cough","loss of appetite","loss of weight","swollen fingertips","clubbed fingers"],
+        "responses" : ["According to your symptoms you might have Idiopathic pulmonary fibrosis","You have Idiopathic pulmonary fibrosis","I suppose you have Idiopathic pulmonary fibrosis"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-abdullah-al-hasan",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Impetigo",
+        "patterns" : ["red sores around nose","fever"," swollen glands","blisters"],
+        "responses" : ["According to your symptoms you might have Impetigo","You have Impetigo","I suppose you have Impetigo"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-md-amir-khasru",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Indigestion",
+        "patterns" : ["bloatedness","belching","regurgitation","nausea","feeling full"],
+        "responses" : ["According to your symptoms you might have Indigestion","You have Indigestion","I suppose you have Indigestion"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-urmi-ray",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Ingrown toenail",
+        "patterns" : ["inflammation in toe","yellow pus from toe","oedema","curling of nail"],
+        "responses" : ["According to your symptoms you might have Ingrown toenail","You have Ingrown toenail","I suppose you have Ingrown toenail"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-shamim-hassan",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Inherited heart conditions",
+        "patterns" : ["palpitations","fainting","blackouts"],
+        "responses" : ["According to your symptoms you might have Inherited heart conditions","You have Inherited heart conditions","I suppose you have Inherited heart conditions"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-khandaker-quamrul-islam",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Insomnia",
+        "patterns" : ["difficulty in sleeping","awake for long periods","not feeling refreshed after waking","difficulty napping","difficulty concentrating","irritable"],
+        "responses" : ["According to your symptoms you might have Insomnia","You have Insomnia","I suppose you have Insomnia"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-md-shah-alam",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Iron deficiency anaemia",
+        "patterns" : ["tiredness","lethargy","lack of energy","shortness of breath","pale complexion","heart palpitations","headache","feeling itchy","difficulty swallowing","abnormally smooth tongue","hair loss"],
+        "responses" : ["According to your symptoms you might have Iron deficiency anaemia","You have Iron deficiency anaemia","I suppose you have Iron deficiency anaemia"],
+        "doctor_link":" https://sasthyaseba.com/doctors/dr-md-kamruzzaman",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Irritable bowel syndrome (IBS)",
+        "patterns" : ["abdominal pain","diarrhoea","constipation","bloating","excessive flatulence","lethargy","heartburn","cramping"],
+        "responses" : ["According to your symptoms you might have Irritable bowel syndrome (IBS)","You have Irritable bowel syndrome (IBS)","I suppose you have Irritable bowel syndrome (IBS)"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-md-razibul-alam",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Irritable hip",
+        "patterns" : ["slightly higher temperature","pain in the knee","thigh pain","estricted movement in hip joints","limping","hip pain"],
+        "responses" : ["According to your symptoms you might have Irritable hip","You have Irritable hip","I suppose you have Irritable hip"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-md-masud-rana",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag": "Itching",
+        "patterns": [
+          "Redness",
+          "leathery or scaly patches",
+          "scratch marks",
+          "blisters",
+          "cracked skin",
+          "itchy skin",
+          "itchness all over body",
+          "dry skin",
+          "persistent itch"
+        ],
+        "responses": [
+          "According to your symptoms you might have Itching",
+          "You have Itching",
+          "I suppose you have Itching"
+        ],
+        "doctor_link": "https://healthcenterbd.com/dr-hasina-akter/",
+        "suggestion": "Use gentle cleansers, keep skin moisturized, and avoid irritants. If persistent, consult a dermatologist."
+      },
+      {
+        "tag" : "Itchy bottom",
+        "patterns" : ["persistent anal itch","anal bleeding","stool leakage","severe rectal itch","itchness in  bottom"],
+        "responses" : ["According to your symptoms you might have Itchy bottom","You have Itchy bottom","I suppose you have Itchy bottom"],
+        "doctor_link":"https://seradoctor.com/doctor-profile/dr.-md.-anisur-rahman",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Kaposi's sarcoma",
+        "patterns" : ["uncomfortable swelling","nausea","vomiting","","coughing up blood","chest pain","stomach pain"],
+        "responses" : ["According to your symptoms you might have Kaposi's sarcoma","You have Kaposi's sarcoma","I suppose you have Kaposi's sarcoma"],
+        "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-happy-haque-hossain",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" : "Kidney stones",
+        "patterns" : ["persistent ache in lower back","periods of intense pain","nausea","pain while urination","blood in urine","gfrequent urge to urinate","restlessness"],
+        "responses" : ["According to your symptoms you might have Kidney stones","You have Kidney stones","I suppose you have Kidney stones"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-hasina-sadia-khan",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag" :"Leprosy",
+        "patterns" :[" Painful nerves"," loss of feeling","weakness in the hands","Crusting","difficulty breathing","loss of vision "],
+        "responses" :["According to your symptoms you might have Leprosy","You may have Laprosy","I suppose you have Laprosy"],
+        "doctor_link":"https://sasthyaseba.com/doctors/dr-isabela-kabir",
+        "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      { "tag" :" Laryngeal cancer ",
+      "patterns" :["A change in your voice","Pain or difficulty swallowing"," long-lasting cough","A persistent sore throat or earache","Difficulty breathing"],
+      "responses" :["According to your symptoms you might have Laryngeal cancer","you may have Laryngeal cancer","I suppose you have Laryngeal cancer"],
+      "doctor_link":"https://heliumdoc.com/bd/arifur-rahman/",
+      "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      { "tag" :"Pancreatic Cancer",
+  "patterns" :["A yellowing of the skin and whites of the eyes","Unintentional weight loss","Pain in the upper or middle abdomen and back","Loss of appetite"],
+  "responses" :["According to your symptoms you might have Pancreatic Cancer","You may have Pancreatic Cancer","I suppose you have Pancreatic Cancer"],
+  "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-kazi-manzur-kader",
+  "suggestion":"Consult a specialist for a proper treatment plan"
+  },
+  { "tag" :"Paruresis",
+  "patterns" :["Difficulty urinating","Slow urine stream","Urine flow that stops and starts","Rapid heartbea","Nausea"],
+  "responses" :["According to your symptoms you might have Paruresis","You may have Paruresis","I suppose you have paruresis"],
+  "doctor_link":"https://sasthyaseba.com/doctors/dr-md-touhid-belal-tapan",
+  "suggestion":"Consult a specialist for a proper treatment plan"
+},
+      {
+        "tag": "Kidney infection",
+        "patterns": [
+          "pus in kidney",
+          "shivering",
+          "pain in the back",
+          "painful urination",
+          "fever"
+        ],
+        "responses": [
+          "According to your symptoms you might have Kidney infection",
+          "You have Kidney infection",
+          "I suppose you have Kidney infection"
+        ],
+        "doctor_link": "https://healthcenterbd.com/prof-dr-delip-kumar-roy/",
+        "suggestion": "Drink plenty of water, follow doctor’s advice on antibiotics, and complete the full treatment course. Consult a specialist for a proper treatment plan."
+      },
+      {
+        "tag": "Rabies",
+        "patterns": [
+          " flu-like weakness",
+          "fever",
+          "headache",
+          "Hallucinations",
+          "Hydrophobia ",
+          "Paralysis"
+        ],
+        "responses": [
+          "According to your symptoms you might have Rabies",
+          "You may have Rabies",
+          "I suppose you have Rabies"
+        ],
+        "doctor_link": "https://healthcenterbd.com/dr-firoz-ahmed/",
+        "suggestion": "Seek immediate prophylaxis after any suspected animal bite. Vaccination is critical. Consult a specialist for a proper treatment plan."
+      },
+      { "tag" :"Typoid",
+      "patterns" :["fever that can reach 103–104°F (39–40°C)","Severe abdominal pain"," Feeling generally weak or sluggish","You may not feel like eating"],
+      "responses" :["According to your symptoms you might have Typoid","You may have Typoid","I suppose You have Typoid"],
+      "doctor_link":"https://sasthyaseba.com/doctors/prof-dr-md-titu-miah",
+      "suggestion":"Consult a specialist for a proper treatment plan"
+      },
+      {
+        "tag": "Unknown",
+        "patterns": [],
+        "responses": [
+          "Sorry I didn't understand what you said",
+          "Sorry I didn't catch that",
+          "Sorry I can't recognize you , Please try again"
+        ],
+        "suggestion": "Try rephrasing your question or consult a professional if unsure. Consult a specialist for a proper treatment plan."
+      },
+      {
+  "tag": "Coronavirus",
+  "patterns": [
+    "cough and fever",
+    "lost sense of taste",
+    "lost sense of smell",
+    "breathing difficulty",
+    "feeling very tired",
+    "covid symptoms",
+    "corona virus"
+  ],
+  "responses": [
+    "According to your symptoms you might have COVID-19",
+    "You may be infected with the Coronavirus",
+    "I suppose you have COVID-19 symptoms",
+    "use mask"
+  ],
+  "doctor_link": "https://healthcenterbd.com/dr-md-kanruzzaman/",
+  "suggestion": "Isolate yourself and get tested immediately. Monitor your oxygen levels and consult a physician if symptoms worsen. Stay hydrated and rest well."
+},
+{
+  "tag": "Asthma",
+  "patterns": [
+    "shortness of breath",
+    "wheezing",
+    "chest tightness",
+    "coughing at night or early morning"
+  ],
+  "responses": [
+    "You might be experiencing Asthma symptoms",
+    "According to your symptoms you may have Asthma",
+    "I suppose you have Asthma"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-sirajul-haque-5987",
+  "suggestion": "Use prescribed inhalers, avoid triggers, and consult a pulmonologist"
+},
+{
+  "tag": "Diabetes",
+  "patterns": [
+    "frequent urination",
+    "increased thirst",
+    "unexplained weight loss",
+    "feeling very tired"
+  ],
+  "responses": [
+    "You may be showing signs of Diabetes",
+    "I suppose you have Diabetes",
+    "Your symptoms suggest Diabetes"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-shahjada-selim",
+  "suggestion": "Monitor blood sugar regularly and consult an endocrinologist"
+},
+{
+  "tag": "Migraine",
+  "patterns": [
+    "pulsing or throbbing pain",
+    "nausea with headache",
+    "sensitivity to light and sound",
+    "visual disturbances or aura"
+  ],
+  "responses": [
+    "Your symptoms indicate a Migraine",
+    "You might be suffering from Migraine",
+    "Looks like you have Migraine"
+  ],
+  "doctor_link": "https://healthcenterbd.com/prof-dr-mahbubur-rahman/",
+  "suggestion": "Avoid known triggers, rest in a quiet dark room, and take prescribed medication"
+},
+{
+  "tag": "Anemia",
+  "patterns": [
+    "fatigue",
+    "pale skin",
+    "shortness of breath",
+    "dizziness",
+    "cold hands and feet"
+  ],
+  "responses": [
+    "You might be suffering from Anemia",
+    "Your symptoms match with Anemia",
+    "It appears you have Anemia"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-nazrul-islam",
+  "suggestion": "Increase iron intake and consult a doctor for proper diagnosis"
+},
+{
+  "tag": "Skin Allergy",
+  "patterns": [
+    "itchy skin",
+    "red rashes",
+    "dry or scaly patches",
+    "swelling or blisters"
+  ],
+  "responses": [
+    "You might have a Skin Allergy",
+    "These symptoms indicate a possible Skin Allergy",
+    "It looks like a Skin Allergy"
+  ],
+  "doctor_link": "https://healthcenterbd.com/dr-farhana-dewan/",
+  "suggestion": "Avoid known allergens, use antihistamines, and consult a dermatologist"
+},
+{
+  "tag": "Depression",
+  "patterns": [
+    "feeling sad",
+    "loss of interest",
+    "sleep problems",
+    "feeling hopeless",
+    "changes in appetite"
+  ],
+  "responses": [
+    "Your symptoms may indicate Depression",
+    "You might be suffering from Depression",
+    "It seems you have Depression symptoms"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-jannatul-mamun",
+  "suggestion": "Talk to a mental health professional and seek counseling or therapy"
+},
+{
+  "tag": "Flu",
+  "patterns": [
+    "fever",
+    "chills",
+    "muscle aches",
+    "sore throat",
+    "runny nose"
+  ],
+  "responses": [
+    "You may have the Flu",
+    "Your symptoms seem like the Flu",
+    "I suppose you are experiencing the Flu"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-abdul-hannan",
+  "suggestion": "Get plenty of rest, stay hydrated, and take flu medications if necessary"
+},
+{
+  "tag": "Food Poisoning",
+  "patterns": [
+    "nausea after eating",
+    "vomiting",
+    "diarrhea",
+    "stomach cramps",
+    "fever after eating"
+  ],
+  "responses": [
+    "You might be experiencing Food Poisoning",
+    "Your symptoms point to Food Poisoning",
+    "Looks like you have Food Poisoning"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-shahidul-islam",
+  "suggestion": "Drink plenty of fluids, rest, and consult a doctor if symptoms persist"
+},
+{
+  "tag": "Arthritis",
+  "patterns": [
+    "joint pain",
+    "joint stiffness",
+    "swelling in joints",
+    "decreased range of motion"
+  ],
+  "responses": [
+    "You may be experiencing Arthritis",
+    "Your symptoms suggest Arthritis",
+    "It looks like Arthritis"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/prof-dr-md-humayun-kabir",
+  "suggestion": "Consult a rheumatologist and take prescribed anti-inflammatory medications"
+},
+{
+  "tag": "Sinusitis",
+  "patterns": [
+    "facial pain",
+    "nasal congestion",
+    "headache around eyes or forehead",
+    "runny nose with thick mucus",
+    "pressure in the face"
+  ],
+  "responses": [
+    "You might be suffering from Sinusitis",
+    "Your symptoms resemble Sinusitis",
+    "Looks like Sinusitis"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-zakir-hossain",
+  "suggestion": "Use saline nasal sprays, stay hydrated, and consult a doctor if it worsens"
+},
+
+{
+  "tag": "Common Cold",
+  "patterns": [
+    "sneezing",
+    "runny nose",
+    "sore throat",
+    "mild fever",
+    "nasal congestion"
+  ],
+  "responses": [
+    "It seems like you have a Common Cold",
+    "You might be suffering from a Cold",
+    "Your symptoms point to Common Cold"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-taher-ali",
+  "suggestion": "Take rest, drink warm fluids, and use over-the-counter cold medicines"
+},
+{
+  "tag": "Cough",
+  "patterns": [
+    "dry cough",
+    "wet cough",
+    "coughing at night",
+    "chest pain with cough"
+  ],
+  "responses": [
+    "You might be experiencing Cough",
+    "It looks like you have a cough",
+    "Cough symptoms detected"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-anamul-haque",
+  "suggestion": "Use cough syrup, drink warm liquids, and consult a doctor if it persists"
+},
+{
+  "tag": "Acidity",
+  "patterns": [
+    "burning sensation in chest",
+    "acid reflux",
+    "heartburn after eating",
+    "bitter taste in mouth"
+  ],
+  "responses": [
+    "Your symptoms indicate Acidity",
+    "You might be suffering from Acid Reflux",
+    "It looks like Acidity"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-hasan-imam",
+  "suggestion": "Avoid spicy foods, eat small meals, and take antacids if needed"
+},
+{
+  "tag": "Gastric Problem",
+  "patterns": [
+    "abdominal bloating",
+    "gas in stomach",
+    "stomach discomfort",
+    "burping frequently"
+  ],
+  "responses": [
+    "Looks like you have Gastric problems",
+    "You might be suffering from Gas issues",
+    "Your symptoms point to Gastric trouble"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-kamruzzaman",
+  "suggestion": "Eat on time, avoid oily food, and take digestive enzymes if necessary"
+},
+{
+  "tag": "Toothache",
+  "patterns": [
+    "pain in tooth",
+    "sensitive teeth",
+    "swollen gums",
+    "pain while chewing"
+  ],
+  "responses": [
+    "You might have a Toothache",
+    "Your symptoms suggest Dental problems",
+    "You should consult a dentist"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-farhana-akter",
+  "suggestion": "Rinse with warm salt water, use pain relievers, and visit a dentist"
+},
+{
+  "tag": "Back Pain",
+  "patterns": [
+    "lower back pain",
+    "back pain while sitting",
+    "stiffness in back",
+    "pain radiating to legs"
+  ],
+  "responses": [
+    "You might be experiencing Back Pain",
+    "Your symptoms suggest lower back issues",
+    "It looks like a Back Pain condition"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-azharul-islam",
+  "suggestion": "Apply hot/cold compress, do light stretching, and consult an orthopedist"
+},
+{
+  "tag": "Eye Infection",
+  "patterns": [
+    "red eyes",
+    "itchy eyes",
+    "watery eyes",
+    "swollen eyelids"
+  ],
+  "responses": [
+    "You may be experiencing an Eye Infection",
+    "It looks like Conjunctivitis or other eye issue",
+    "Please consult an eye specialist"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-jahangir-alam",
+  "suggestion": "Avoid touching eyes, use sterile eye drops, and consult an eye specialist"
+},
+{
+  "tag": "Fever",
+  "patterns": [
+    "high temperature",
+    "chills and shivering",
+    "body aches",
+    "feeling hot or cold"
+  ],
+  "responses": [
+    "You might be suffering from a Fever",
+    "Fever symptoms detected",
+    "Please monitor your temperature and take rest"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-mizanur-rahman",
+  "suggestion": "Take paracetamol, stay hydrated, and rest well"
+},
+{
+  "tag": "Dengue",
+  "patterns": [
+    "sudden high fever",
+    "severe headache",
+    "pain behind the eyes",
+    "joint and muscle pain",
+    "skin rash"
+  ],
+  "responses": [
+    "Your symptoms may indicate Dengue",
+    "You might be experiencing Dengue Fever",
+    "Consult a doctor immediately if Dengue is suspected"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-nasim-ahmed",
+  "suggestion": "Take plenty of fluids, avoid painkillers like aspirin, and consult a doctor"
+},
+{
+  "tag": "Constipation",
+  "patterns": [
+    "difficulty in passing stool",
+    "infrequent bowel movements",
+    "hard stools",
+    "bloating with constipation"
+  ],
+  "responses": [
+    "You may have Constipation",
+    "Symptoms indicate constipation issues",
+    "Increase fiber and water intake"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-jahangir-hossain",
+  "suggestion": "Eat high-fiber food, drink lots of water, and exercise regularly"
+},
+{
+  "tag": "Diarrhea",
+  "patterns": [
+    "frequent loose stools",
+    "watery stool",
+    "abdominal cramps",
+    "dehydration",
+    "nausea with diarrhea"
+  ],
+  "responses": [
+    "You might be experiencing Diarrhea",
+    "It looks like you have Diarrhea symptoms",
+    "Please take fluids and monitor for dehydration"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-mohammad-sharif-hossain",
+  "suggestion": "Drink ORS, avoid street food, and consult a doctor if symptoms persist"
+},
+{
+  "tag": "Jaundice",
+  "patterns": [
+    "yellow eyes",
+    "yellow skin",
+    "yellow urine",
+    "fatigue",
+    "abdominal pain"
+  ],
+  "responses": [
+    "You might be suffering from Jaundice",
+    "Your symptoms suggest Jaundice",
+    "It seems you have Jaundice"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-al-amin",
+  "suggestion": "Avoid oily food, take rest, and consult a liver specialist"
+},
+{
+  "tag": "High Blood Pressure",
+  "patterns": [
+    "frequent headaches",
+    "dizziness",
+    "chest discomfort",
+    "vision problems",
+    "irregular heartbeat"
+  ],
+  "responses": [
+    "Your symptoms may indicate High Blood Pressure",
+    "You might be suffering from hypertension",
+    "Consult a doctor for blood pressure monitoring"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/prof-dr-abdul-hannan",
+  "suggestion": "Reduce salt, avoid stress, and check BP regularly"
+},
+{
+  "tag": "Low Blood Pressure",
+  "patterns": [
+    "dizziness",
+    "blurred vision",
+    "fainting",
+    "cold skin",
+    "fatigue"
+  ],
+  "responses": [
+    "It seems like Low Blood Pressure",
+    "You may be having hypotension",
+    "Please stay hydrated and consult a doctor"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-humayun-kabir",
+  "suggestion": "Drink water, eat small meals, and avoid sudden standing"
+},
+{
+  "tag": "Thyroid Problem",
+  "patterns": [
+    "unexplained weight gain or loss",
+    "hair thinning",
+    "irregular periods",
+    "feeling very cold or hot",
+    "fatigue"
+  ],
+  "responses": [
+    "Your symptoms may relate to a Thyroid issue",
+    "You might have a Thyroid imbalance",
+    "Consider taking a thyroid function test"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-mohammad-zahangir-alam",
+  "suggestion": "Get thyroid checked and consult an endocrinologist"
+},
+{
+  "tag": "Urine Infection",
+  "patterns": [
+    "pain during urination",
+    "burning feeling while peeing",
+    "frequent urge to urinate",
+    "cloudy or smelly urine",
+    "lower abdominal pain"
+  ],
+  "responses": [
+    "You might have a Urinary Tract Infection",
+    "UTI symptoms detected",
+    "Please drink water and consult a doctor"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-farzana-yasmin",
+  "suggestion": "Drink fluids, avoid holding urine, and take prescribed antibiotics"
+},
+{
+  "tag": "Menstrual Cramps",
+  "patterns": [
+    "lower abdominal pain",
+    "pain during periods",
+    "back pain with menstruation",
+    "cramps during menstruation"
+  ],
+  "responses": [
+    "It looks like you're experiencing Menstrual Cramps",
+    "These are common during menstruation",
+    "Please consider rest and mild pain relief"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-rahima-begum",
+  "suggestion": "Use hot compress, light exercise, and over-the-counter pain relief"
+},
+{
+  "tag": "Allergic Rhinitis",
+  "patterns": [
+    "sneezing often",
+    "itchy nose",
+    "runny or blocked nose",
+    "watery eyes",
+    "allergy symptoms during season change"
+  ],
+  "responses": [
+    "You may be experiencing Allergic Rhinitis",
+    "It looks like you have seasonal allergies",
+    "Avoid allergens and use antihistamines"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-abu-naser",
+  "suggestion": "Avoid dust/pollen, use masks, and take antihistamines if needed"
+},
+{
+  "tag": "Chickenpox",
+  "patterns": [
+    "itchy red spots",
+    "fever with rash",
+    "fluid-filled blisters",
+    "fatigue during rash"
+  ],
+  "responses": [
+    "You may have Chickenpox",
+    "It looks like Chickenpox symptoms",
+    "Avoid scratching and consult a doctor"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-nasima-akter",
+  "suggestion": "Take rest, calamine lotion for itching, and stay isolated"
+},
+{
+  "tag": "Obesity",
+  "patterns": [
+    "overweight",
+    "excess body fat",
+    "breathlessness while walking",
+    "feeling heavy and tired"
+  ],
+  "responses": [
+    "You may be dealing with Obesity",
+    "Your symptoms suggest being overweight",
+    "Consider lifestyle changes and diet consultation"
+  ],
+  "doctor_link": "https://sasthyaseba.com/doctors/dr-md-salim-uzzaman",
+  "suggestion": "Start physical activity, follow healthy diet, and consult a nutritionist"
+},
+
+      {
+        "tag": "Goodbye",
+        "patterns": [
+          "Thank You, Goodbye",
+          "See you",
+          "Bye",
+          "goodbye"
+        ],
+        "responses": [
+          "Have a Nice day",
+          "Thank You to you too",
+          "Talk to you later!",
+          "GoodBye!"
+        ],
+        "suggestion": "Stay safe and take care!"
+      }
+    ]
+  }
+  

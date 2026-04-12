@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Medical Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="chat-header">
+        <h2>My HealthCare Assistant</h2>
+      </div>
+      <div id="chat-box" class="chat-box">
+        <!-- Messages will be appended here dynamically -->
+      </div>
+      <div class="chat-input">
+        <!-- Change the onkeypress to onkeydown -->
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Type your message..."
+          onkeydown="handleKeyPress(event)"
+        />
+        <button onclick="sendMessage()">Send</button>
+        <button id="recordButton" class="record-btn">🎤</button>
+      </div>
+      <div class="voice-selector">
+        <label>Voice Type:</label>
+        <select id="voiceGender">
+            <option value="male">Male Voice</option>
+            <option value="female">Female Voice</option>
+            
+        </select>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>
