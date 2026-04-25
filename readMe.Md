@@ -1,10 +1,10 @@
-# 🧠 AI Medical Chatbot with Voice Assistance
+# AI Medical Chatbot with Voice Assistance
 
 An intelligent NLP-based medical chatbot capable of understanding user symptoms, predicting possible conditions, and providing suggestions along with doctor references. The system also supports **voice input** for a more interactive user experience.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project implements a **deep learning-based conversational AI system** designed for basic healthcare assistance. It processes user input (text or voice), predicts the most relevant medical condition using a trained neural network, and returns appropriate responses, suggestions, and doctor recommendations.
 
@@ -12,19 +12,19 @@ The system is built using **Natural Language Processing (NLP)** and **TensorFlow
 
 ---
 
-## 🚀 Features
+## Features
 
-- 💬 Text-based chatbot interaction  
-- 🎤 Voice input support using Speech Recognition  
-- 🧠 Deep learning intent classification model  
-- 🏥 Disease prediction based on symptoms  
-- 🔗 Doctor recommendation links  
-- 💡 Health suggestions for each condition  
-- 🌐 Web-based interface using Flask  
+-  Text-based chatbot interaction  
+-  Voice input support using Speech Recognition  
+-  Deep learning intent classification model  
+-  Disease prediction based on symptoms  
+-  Doctor recommendation links  
+-  Health suggestions for each condition  
+-  Web-based interface using Flask  
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### 1. Data Preparation
 - Dataset defined in `intents.json`  
@@ -70,7 +70,7 @@ The system is built using **Natural Language Processing (NLP)** and **TensorFlow
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python  
 - Flask  
